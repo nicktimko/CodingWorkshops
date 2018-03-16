@@ -7,9 +7,9 @@
       </tr>
         <table>
           {%for name, line in team.items() %}
-          <tr> <td>{{name}}</td> <td> <!-- Feature 4 --> </td>  </tr>
+          <tr> <td><img src="{{img[name]}}"></td><td>{{name}}: {{line}}</td>  </tr>
           {%endfor%}
-        </table
+        </table>
     {%endfor%}
   </table>
   </body>

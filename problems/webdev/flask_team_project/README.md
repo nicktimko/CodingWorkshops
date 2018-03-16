@@ -6,7 +6,7 @@ In the [team project command line application](https://github.com/chicagopython/
 application for creating teams out of people who have RSVP-ed for a Python Project
 Night. However, it is much easier to give a link of your app to someone
 than asking them to use a command line. So, we will create a web app, that allows
-forming teams from the list of RSVP-s from meetup.com. We
+forming teams from the list of RSVP's from meetup.com. We
 will ask for the number of lines of code that a person has written in
 Python or an equivalent language and use it for putting them in a team. The number of lines is just a rough estimate. As a reference, the linux kernel is over 23 million lines of code!
 
@@ -36,7 +36,7 @@ Sounds good? Then let's dive into building a fully functional web app using flas
 
 ### Minimum Viable Product
 Our objective is to build an web based interface using Flask that
-- Shows a list of people who have RSVP-ed for the project Night
+- Shows a list of people who have RSVPed for the project Night
 - Each entry in the list should have
   - The name of the person
   - The meetup.com profile image of the person
@@ -98,13 +98,13 @@ The reason is there is a string in the `app.py` file that allows meetup.com to i
 Plug in your key whereever most relevant in `app.py` and run the above command again.
 
 This will start a [web server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server) on port 5000.
-Next load up http://locahost:5000/rsvps in your web browser. 
+Next load up http://locahost:5000/rsvps in your web browser.
 
 This will show you the list of people who RSVPed for a previous meetup.
 Goto tonight's meetup page and get the meetup id from the url.
 
    https://www.meetup.com/_ChiPy_/events/244121900/
-   
+
 The last section of the url is the `event_id`.
 
 ### Feature 1: Read app.py
@@ -142,7 +142,7 @@ You can stick the following line anywhere in the code and make it halt so that y
 Make changes to rsvps.html (inside templates) to show images of next to the
 names of the people.
 
-### Feature 3: Add a text box next for lines of code
+### Feature 3: Add a text box next to names for lines of code
 Add an input type textbox that will take a number as input
 
 ### Feature 4: Display the lines of code
